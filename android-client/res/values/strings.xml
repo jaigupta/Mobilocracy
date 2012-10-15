@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, main!</string>
+    <string name="app_name">jaiapp</string>
+    <string name="creator">Ritesh Singh\nJai Prakash Gupta</string>
+    <string name="home_form_email">Email Id:</string>
+    <string name="home_form_name">Name:</string>
+    <string name="home_form_address">Address:</string>
+    <string name="home_form_detail">Detail:</string>
+    <string name="home_details">User Details</string>
+    <string name="stare_capture_image">Capture Image</string>
+    <string name="loadImage">Load Image</string>
+    <string name="select_image">Select an Image</string>
+    <string name="image_time">Time of snapshot</string>
+    <string name="time_Day">Day: </string>
+    <string name="time_month">Month: </string>
+    <string name="time_year">Year: </string>
+    <string name="time_time">Time: </string>
+    <string-array name="am_pm">
+        <item>am</item>
+        <item>pm</item>
+    </string-array>
+    <string name="setloc">Set</string>
+</resources>

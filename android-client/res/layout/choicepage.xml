@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/report_issue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report Issue" />
+
+    <Button
+        android:id="@+id/browse_issue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Browse Issue" />
+
+    <Button
+        android:id="@+id/my_issue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Issue" />
+
+</LinearLayout>

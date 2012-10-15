@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="android.jai.com"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA"></uses-permission>
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-feature android:name="android.hardware.camera" />
+	<uses-feature android:name="android.hardware.camera.autofocus" />
+	
+	<application android:icon="@drawable/icon" android:label="@string/app_name"> 
+	    <uses-library  android:required="true" android:name="com.google.android.maps" />
+        <activity android:name=".main"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+		<activity android:name=".Home"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.jai.com.Home" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".StartPage" 
+            	  android:configChanges="keyboardHidden|orientation"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.jai.com.StartPage" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".CameraDemo"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.jai.com.CameraDemo" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".AndroidExplorer"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.jai.com.AndroidExplorer" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".ShowMap"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.jai.com.ShowMap" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+	    <uses-library android:name="com.google.android.maps" />
+        </activity>
+        
+        <activity android:name=".ShowLocation"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar">            
+	    <uses-library  android:required="true" android:name="com.google.android.maps" />
+            <intent-filter>
+                <action android:name="android.jai.com.ShowLocation" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".ChoicePage"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.jai.com.ChoicePage" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".BrowseMap"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.jai.com.BrowseMap" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+	    <uses-library android:name="com.google.android.maps" />
+        </activity>
+        
+    </application>
+</manifest>
